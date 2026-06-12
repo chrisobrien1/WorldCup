@@ -49,6 +49,8 @@ const TLA_TO_ISO2: Record<string, string> = {
   NGA: 'NG', NOR: 'NO', NZL: 'NZ', PAN: 'PA', PAR: 'PY', PER: 'PE', POL: 'PL',
   POR: 'PT', QAT: 'QA', RSA: 'ZA', SEN: 'SN', SRB: 'RS', SUI: 'CH', SWE: 'SE',
   TUN: 'TN', TUR: 'TR', UKR: 'UA', URU: 'UY', USA: 'US', UZB: 'UZ',
+  // football-data.org trigrams that differ from FIFA's, plus 2026 qualifiers
+  URY: 'UY', CZE: 'CZ', BIH: 'BA', COD: 'CD',
 };
 
 function flagFor(tla: string | null): string {
