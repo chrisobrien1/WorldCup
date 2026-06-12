@@ -39,13 +39,27 @@ contract (`src/app/services/world-cup.contract.ts`):
 | `getFavorites()` | `Observable<string[]>` — starred team ids |
 | `toggleFavorite(teamId)` | persists to `localStorage`, anonymous |
 
-`MockWorldCupService` implements the contract today. To go live near
-tournament time, implement the contract against API-Football /
-Football-Data.org and change **one line** in `src/app/app.config.ts`:
+Two implementations ship with the app:
 
-```ts
-{ provide: WORLD_CUP_SERVICE, useClass: ApiFootballService } // was MockWorldCupService
-```
+- **`MockWorldCupService`** — the offline simulation engine (default).
+- **`FootballDataService`** — live data from the
+  [football-data.org](https://www.football-data.org) v4 API (free tier:
+  World Cup included, 10 req/min; we poll every 30 s and diff snapshots
+  into goal/kickoff/full-time events).
+
+### Going live
+
+1. Register free at https://www.football-data.org/client/register
+2. Paste the emailed token into `FOOTBALL_DATA_TOKEN` in
+   `src/app/services/api-config.ts`
+3. Rebuild. `app.config.ts` picks the live service automatically when a
+   token is present — no other changes.
+
+The Android app calls the API natively (no CORS). For pure-browser
+deployments (GitHub Pages), if the API rejects cross-origin requests set
+`FOOTBALL_DATA_PROXY` in the same file to a personal CORS proxy (e.g. a
+free Cloudflare Worker). Note the token ships in the client bundle —
+fine for a personal free key, never for a paid secret.
 
 ## The mock engine
 

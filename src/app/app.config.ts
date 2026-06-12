@@ -5,6 +5,8 @@ import { IonicRouteStrategy, provideIonicAngular } from '@ionic/angular/standalo
 import { routes } from './app.routes';
 import { WORLD_CUP_SERVICE } from './services/world-cup.contract';
 import { MockWorldCupService } from './services/mock-world-cup.service';
+import { FootballDataService } from './services/football-data.service';
+import { FOOTBALL_DATA_TOKEN } from './services/api-config';
 
 export const appConfig: ApplicationConfig = {
   providers: [
@@ -15,8 +17,12 @@ export const appConfig: ApplicationConfig = {
     // and inside the Capacitor webview without server rewrites.
     provideRouter(routes, withHashLocation()),
 
-    // The single line to change when wiring a live production API:
-    // swap MockWorldCupService for e.g. ApiFootballService.
-    { provide: WORLD_CUP_SERVICE, useClass: MockWorldCupService },
+    // The data-layer swap: paste a token into services/api-config.ts and
+    // the live football-data.org adapter takes over; otherwise the mock
+    // simulation engine runs.
+    {
+      provide: WORLD_CUP_SERVICE,
+      useClass: FOOTBALL_DATA_TOKEN ? FootballDataService : MockWorldCupService,
+    },
   ],
 };

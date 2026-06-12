@@ -3,8 +3,8 @@ import { BehaviorSubject, Observable, Subject, Subscription, interval, of } from
 import { Match, MatchEvent, Team } from '../models';
 import { IWorldCupDataService } from './world-cup.contract';
 import { TEAMS, buildSchedule, hashId, mulberry32 } from './mock-data';
+import { readFavorites, toggledFavorites, writeFavorites } from './favorites-store';
 
-const FAVORITES_KEY = 'wc26.favorites';
 const TICK_MS = 2500;
 /** Simulated match minutes advanced per tick (~accelerated for the demo). */
 const MINUTES_PER_TICK = 2;
@@ -23,7 +23,7 @@ export class MockWorldCupService extends IWorldCupDataService implements OnDestr
   constructor() {
     super();
     this.matches$ = new BehaviorSubject(this.settleHistory(buildSchedule(Date.now())));
-    this.favorites$ = new BehaviorSubject(this.readFavorites());
+    this.favorites$ = new BehaviorSubject(readFavorites());
     this.ticker = interval(TICK_MS).subscribe(() => this.tick());
   }
 
@@ -48,26 +48,9 @@ export class MockWorldCupService extends IWorldCupDataService implements OnDestr
   }
 
   toggleFavorite(teamId: string): void {
-    const current = this.favorites$.value;
-    const next = current.includes(teamId)
-      ? current.filter((id) => id !== teamId)
-      : [...current, teamId];
+    const next = toggledFavorites(this.favorites$.value, teamId);
     this.favorites$.next(next);
-    try {
-      localStorage.setItem(FAVORITES_KEY, JSON.stringify(next));
-    } catch {
-      // Storage full/unavailable: favorites still work for this session.
-    }
-  }
-
-  private readFavorites(): string[] {
-    try {
-      const raw = localStorage.getItem(FAVORITES_KEY);
-      const parsed = raw ? JSON.parse(raw) : [];
-      return Array.isArray(parsed) ? parsed.filter((id) => typeof id === 'string') : [];
-    } catch {
-      return [];
-    }
+    writeFavorites(next);
   }
 
   /**

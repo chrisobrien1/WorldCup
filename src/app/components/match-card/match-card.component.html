@@ -5,7 +5,7 @@
 
   <div class="card-head">
     <span class="stage-chip">{{ stageLabel() }}</span>
-    <span class="venue">{{ match().venue }} · {{ match().city }}</span>
+    <span class="venue">{{ match().venue }}@if (match().city) { · {{ match().city }}}</span>
     @switch (match().status) {
       @case ('live') {
         <span class="live-badge"><span class="live-dot"></span>LIVE {{ match().minute }}&prime;</span>
