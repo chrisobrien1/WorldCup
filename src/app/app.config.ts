@@ -1,5 +1,5 @@
 import { ApplicationConfig, provideZoneChangeDetection } from '@angular/core';
-import { RouteReuseStrategy, provideRouter } from '@angular/router';
+import { RouteReuseStrategy, provideRouter, withHashLocation } from '@angular/router';
 import { IonicRouteStrategy, provideIonicAngular } from '@ionic/angular/standalone';
 
 import { routes } from './app.routes';
@@ -11,7 +11,9 @@ export const appConfig: ApplicationConfig = {
     provideZoneChangeDetection({ eventCoalescing: true }),
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy },
     provideIonicAngular({ mode: 'md' }),
-    provideRouter(routes),
+    // Hash-based URLs (/#/matches) work on any static host (GitHub Pages)
+    // and inside the Capacitor webview without server rewrites.
+    provideRouter(routes, withHashLocation()),
 
     // The single line to change when wiring a live production API:
     // swap MockWorldCupService for e.g. ApiFootballService.
