@@ -1,0 +1,72 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar>
+    <ion-title>
+      <span class="brand">WORLD CUP <span class="brand-year">26</span></span>
+    </ion-title>
+  </ion-toolbar>
+
+  <ion-toolbar class="sub-toolbar">
+    <div class="controls">
+      <span class="tz-chip" title="Detected device timezone">
+        🕒 All times in your local time · {{ timezoneLabel }}
+      </span>
+      <ion-toggle
+        labelPlacement="start"
+        [checked]="favoritesOnly()"
+        (ionChange)="favoritesOnly.set($event.detail.checked)"
+      >
+        <span class="fav-toggle-label">★ Favorites only</span>
+      </ion-toggle>
+    </div>
+  </ion-toolbar>
+
+  <ion-toolbar class="segment-toolbar">
+    <ion-segment [value]="segment()" (ionChange)="onSegmentChange($event.detail.value)">
+      <ion-segment-button value="upcoming">
+        <ion-label>Upcoming</ion-label>
+      </ion-segment-button>
+      <ion-segment-button value="live">
+        <ion-label class="live-label">
+          Live Tracker
+          @if (liveCount() > 0) {
+            <ion-badge class="live-count">{{ liveCount() }}</ion-badge>
+          }
+        </ion-label>
+      </ion-segment-button>
+      <ion-segment-button value="finished">
+        <ion-label>Past Results</ion-label>
+      </ion-segment-button>
+    </ion-segment>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  @for (section of sections(); track section.day.getTime()) {
+    <div class="day-header">{{ section.day | date: 'EEEE d MMMM' }}</div>
+    @for (match of section.matches; track match.id) {
+      <app-match-card
+        [match]="match"
+        [home]="team(match.homeTeamId)"
+        [away]="team(match.awayTeamId)"
+        [favorites]="favorites()"
+        (favToggle)="onToggleFavorite($event)"
+      />
+    }
+  } @empty {
+    <div class="empty-state">
+      @switch (segment()) {
+        @case ('live') {
+          <span class="empty-emoji">📺</span>
+          <p>No matches are live right now.<br />The next kick-off is coming up — check Upcoming!</p>
+        }
+        @default {
+          <span class="empty-emoji">⭐</span>
+          <p>Nothing here{{ favoritesOnly() ? ' for your favorite teams' : '' }} yet.<br />
+            @if (favoritesOnly()) { Try switching off the favorites filter. }
+          </p>
+        }
+      }
+    </div>
+  }
+  <div class="bottom-space"></div>
+</ion-content>

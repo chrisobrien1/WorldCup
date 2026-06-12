@@ -1,0 +1,91 @@
+/* Ionic core + utility styles */
+@import "@ionic/angular/css/core.css";
+@import "@ionic/angular/css/normalize.css";
+@import "@ionic/angular/css/structure.css";
+@import "@ionic/angular/css/typography.css";
+@import "@ionic/angular/css/padding.css";
+@import "@ionic/angular/css/float-elements.css";
+@import "@ionic/angular/css/text-alignment.css";
+@import "@ionic/angular/css/text-transformation.css";
+@import "@ionic/angular/css/flex-utils.css";
+@import "@ionic/angular/css/display.css";
+
+/* Always-on premium dark base */
+@import "@ionic/angular/css/palettes/dark.always.css";
+
+/* ── World Cup 26 theme ─────────────────────────────────────────── */
+:root {
+  /* Neon accent palette */
+  --wc-lime: #c6ff4d;
+  --wc-gold: #ffd60a;
+  --wc-magenta: #ff2e92;
+  --wc-crimson: #ff2e4d;
+
+  /* Deep obsidian base */
+  --ion-background-color: #07090d;
+  --ion-background-color-rgb: 7, 9, 13;
+  --ion-text-color: #eef2f7;
+  --ion-text-color-rgb: 238, 242, 247;
+
+  --ion-color-primary: #c6ff4d;
+  --ion-color-primary-rgb: 198, 255, 77;
+  --ion-color-primary-contrast: #0b0e07;
+  --ion-color-primary-contrast-rgb: 11, 14, 7;
+  --ion-color-primary-shade: #aee044;
+  --ion-color-primary-tint: #ccff5f;
+
+  --ion-card-background: #0e1219;
+  --ion-toolbar-background: #07090d;
+  --ion-item-background: #0e1219;
+  --ion-tab-bar-background: #080a0e;
+
+  --ion-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", sans-serif;
+}
+
+/* Subtle stadium-turf glow behind all content */
+ion-content {
+  --background: radial-gradient(
+      120% 60% at 50% -10%,
+      rgba(20, 54, 31, 0.55) 0%,
+      rgba(7, 9, 13, 0) 60%
+    ),
+    #07090d;
+}
+
+/* Shared micro-interaction keyframes (referenced from component styles) */
+@keyframes wc-pulse {
+  0%,
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.35;
+    transform: scale(0.78);
+  }
+}
+
+@keyframes wc-pop {
+  0% {
+    transform: scale(0.4) rotate(-18deg);
+  }
+  55% {
+    transform: scale(1.45) rotate(8deg);
+  }
+  100% {
+    transform: scale(1) rotate(0);
+  }
+}
+
+/* Neon goal toast */
+.goal-toast {
+  --background: #101708;
+  --color: var(--wc-lime);
+  --border-color: rgba(198, 255, 77, 0.45);
+  --border-style: solid;
+  --border-width: 1px;
+  --border-radius: 12px;
+  --box-shadow: 0 0 24px rgba(198, 255, 77, 0.25);
+  font-weight: 700;
+}

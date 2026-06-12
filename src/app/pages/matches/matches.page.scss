@@ -1,0 +1,120 @@
+ion-toolbar {
+  --background: #07090d;
+}
+
+.brand {
+  font-weight: 900;
+  letter-spacing: 0.12em;
+  color: #f4f7fb;
+
+  .brand-year {
+    color: var(--wc-lime);
+    text-shadow: 0 0 14px rgba(198, 255, 77, 0.5);
+  }
+}
+
+.sub-toolbar {
+  --min-height: 38px;
+
+  .controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 0 14px;
+  }
+}
+
+.tz-chip {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #7c8798;
+  font-size: 0.68rem;
+}
+
+.fav-toggle-label {
+  color: var(--wc-gold);
+  font-size: 0.72rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+ion-toggle {
+  --track-background: #232a36;
+  --track-background-checked: rgba(255, 214, 10, 0.45);
+  --handle-background-checked: var(--wc-gold);
+}
+
+.segment-toolbar {
+  --min-height: 44px;
+  padding: 0 8px 6px;
+}
+
+ion-segment {
+  --background: #10141c;
+  border-radius: 12px;
+}
+
+ion-segment-button {
+  --color: #768295;
+  --color-checked: var(--wc-lime);
+  --indicator-color: var(--wc-lime);
+  --border-radius: 10px;
+  min-height: 36px;
+  font-size: 0.74rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: none;
+}
+
+.live-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.live-count {
+  --background: var(--wc-crimson);
+  --color: #fff;
+  border-radius: 999px;
+  font-size: 0.62rem;
+  animation: wc-pulse 1.4s ease-in-out infinite;
+}
+
+.day-header {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  margin: 6px 0 2px;
+  padding: 7px 18px;
+  background: rgba(7, 9, 13, 0.88);
+  backdrop-filter: blur(8px);
+  color: var(--wc-magenta);
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 64px 32px;
+  text-align: center;
+  color: #768295;
+  font-size: 0.88rem;
+  line-height: 1.5;
+
+  .empty-emoji {
+    font-size: 2.6rem;
+  }
+}
+
+.bottom-space {
+  height: 24px;
+}

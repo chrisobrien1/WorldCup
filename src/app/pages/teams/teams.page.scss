@@ -1,0 +1,84 @@
+ion-toolbar {
+  --background: #07090d;
+}
+
+.brand {
+  font-weight: 900;
+  letter-spacing: 0.12em;
+  color: #f4f7fb;
+}
+
+.sub-toolbar {
+  --min-height: 34px;
+
+  .hint {
+    margin: 0;
+    padding: 0 16px;
+    color: #7c8798;
+    font-size: 0.72rem;
+
+    .count {
+      margin-left: 8px;
+      color: var(--wc-gold);
+      font-weight: 800;
+    }
+  }
+}
+
+ion-list {
+  background: transparent;
+  padding-bottom: 24px;
+}
+
+.group-header {
+  min-height: 30px;
+  padding-left: 16px;
+  color: var(--wc-magenta);
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+}
+
+ion-item {
+  --background: #0e1219;
+  --background-activated: #161c26;
+  margin: 4px 12px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  transition: border-color 0.25s ease;
+
+  &.is-fav {
+    border-color: rgba(255, 214, 10, 0.5);
+    --background: #14140d;
+  }
+}
+
+.flag {
+  font-size: 1.5rem;
+  margin-right: 4px;
+}
+
+.team-name {
+  color: #eef2f7;
+  font-weight: 700;
+  font-size: 0.92rem;
+}
+
+.team-code {
+  margin-left: 8px;
+  color: #5f6b7d;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+.star {
+  color: #576272;
+  font-size: 1.25rem;
+
+  &.starred {
+    color: var(--wc-gold);
+    animation: wc-pop 0.35s cubic-bezier(0.2, 2.2, 0.4, 1);
+    filter: drop-shadow(0 0 6px rgba(255, 214, 10, 0.6));
+  }
+}
