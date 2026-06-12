@@ -52,17 +52,18 @@ Two implementations ship with the app:
 1. Register free at https://www.football-data.org/client/register
 2. **GitHub Pages deployment**: add the emailed token as a repository
    secret named `FOOTBALL_DATA_TOKEN` (Settings → Secrets and variables →
-   Actions) — the deploy workflow injects it at build time.
-   **Local/Android builds**: paste it into `FOOTBALL_DATA_TOKEN` in
-   `src/app/services/api-config.ts` (avoid committing it).
-3. Rebuild. `app.config.ts` picks the live service automatically when a
-   token is present — no other changes.
-
-The Android app calls the API natively (no CORS). For pure-browser
-deployments (GitHub Pages), if the API rejects cross-origin requests set
-`FOOTBALL_DATA_PROXY` in the same file to a personal CORS proxy (e.g. a
-free Cloudflare Worker). Note the token ships in the client bundle —
-fine for a personal free key, never for a paid secret.
+   Actions). The `refresh-data.yml` workflow fetches the API server-side
+   every 5 minutes and publishes `data/*.json` snapshots to the Pages
+   site, which the browser app reads same-origin — football-data.org's
+   unreliable CORS support never comes into play and the token never
+   reaches the client bundle.
+   **Local/Android builds**: paste the token into `FOOTBALL_DATA_TOKEN`
+   in `src/app/services/api-config.ts` (avoid committing it) — the app
+   then calls the API directly (natively on Android, so no CORS) and
+   polls every 30 s.
+3. `app.config.ts` picks the live service automatically (token present or
+   `USE_HOSTED_SNAPSHOT` enabled); set `USE_HOSTED_SNAPSHOT = false` for
+   offline mock development.
 
 ## The mock engine
 

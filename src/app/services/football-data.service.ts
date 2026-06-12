@@ -114,6 +114,16 @@ export class FootballDataService extends IWorldCupDataService implements OnDestr
   }
 
   private async get(path: string): Promise<any | null> {
+    if (!FOOTBALL_DATA_TOKEN) {
+      // Hosted snapshot mode: same-origin JSON refreshed by GitHub Actions.
+      try {
+        const res = await fetch(`data${path}.json`, { cache: 'no-store' });
+        return res.ok ? await res.json() : null;
+      } catch (err) {
+        console.warn(`snapshot fetch failed for data${path}.json`, err);
+        return null;
+      }
+    }
     const target = `${API_BASE}${path}`;
     const url = FOOTBALL_DATA_PROXY
       ? `${FOOTBALL_DATA_PROXY}${encodeURIComponent(target)}`

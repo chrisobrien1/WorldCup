@@ -24,15 +24,10 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
-      - name: Inject API token from repository secret
-        env:
-          WC_TOKEN: ${{ secrets.FOOTBALL_DATA_TOKEN }}
-        run: |
-          if [ -n "$WC_TOKEN" ]; then
-            sed -i "s/FOOTBALL_DATA_TOKEN = ''/FOOTBALL_DATA_TOKEN = '$WC_TOKEN'/" src/app/services/api-config.ts
-          fi
       - run: npx ng build --base-href=./
       - uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: dist/worldcup26/browser
+          # don't wipe data/*.json written by refresh-data.yml
+          keep_files: true
