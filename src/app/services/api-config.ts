@@ -1,10 +1,11 @@
 /**
  * Live API configuration (football-data.org).
  *
- * 1. Register free at https://www.football-data.org/client/register
- * 2. Paste the token you receive by email below.
- * 3. Rebuild — app.config.ts automatically switches from the mock engine
- *    to the live FootballDataService when a token is present.
+ * For local/Android development: paste your token below (don't commit it).
+ * For the GitHub Pages deployment: leave this empty — the deploy workflow
+ * injects the FOOTBALL_DATA_TOKEN repository secret at build time.
+ * app.config.ts switches from the mock engine to the live
+ * FootballDataService whenever a token is present.
  *
  * Free tier: FIFA World Cup included, 10 requests/min (we poll every 30s).
  * Note: the token ships in the client bundle — acceptable for a personal

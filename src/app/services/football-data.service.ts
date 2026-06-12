@@ -123,9 +123,16 @@ export class FootballDataService extends IWorldCupDataService implements OnDestr
         url,
         headers: { 'X-Auth-Token': FOOTBALL_DATA_TOKEN },
       });
-      return res.status >= 200 && res.status < 300 ? res.data : null;
-    } catch {
-      return null; // transient network failure: keep showing last snapshot
+      if (res.status < 200 || res.status >= 300) {
+        console.warn(`football-data.org returned HTTP ${res.status} for ${path}`);
+        return null;
+      }
+      return res.data;
+    } catch (err) {
+      // Browser deployments: a CORS rejection lands here. The native app
+      // is unaffected; for the web set FOOTBALL_DATA_PROXY in api-config.
+      console.warn(`football-data.org request failed for ${path}`, err);
+      return null;
     }
   }
 

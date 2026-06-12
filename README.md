@@ -50,8 +50,11 @@ Two implementations ship with the app:
 ### Going live
 
 1. Register free at https://www.football-data.org/client/register
-2. Paste the emailed token into `FOOTBALL_DATA_TOKEN` in
-   `src/app/services/api-config.ts`
+2. **GitHub Pages deployment**: add the emailed token as a repository
+   secret named `FOOTBALL_DATA_TOKEN` (Settings → Secrets and variables →
+   Actions) — the deploy workflow injects it at build time.
+   **Local/Android builds**: paste it into `FOOTBALL_DATA_TOKEN` in
+   `src/app/services/api-config.ts` (avoid committing it).
 3. Rebuild. `app.config.ts` picks the live service automatically when a
    token is present — no other changes.
 
