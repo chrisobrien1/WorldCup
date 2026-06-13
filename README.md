@@ -2,7 +2,7 @@
 
 A zero-backend, fully anonymous World Cup 2026 companion app built with
 **Ionic 8 + Angular 19 (standalone, signals)** and **Capacitor 6** for Android.
-All 104 matches, simulated live scores, and on-device favorites — no login,
+All 104 matches, live scores, and on-device favorites - no login,
 no server, no tracking.
 
 ## Scaffold commands used
