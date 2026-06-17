@@ -87,15 +87,27 @@ ion-segment-button {
   text-transform: none;
 }
 
+.live-segment {
+  overflow: visible;
+
+  &::part(native) {
+    overflow: visible;
+  }
+}
+
 .live-label {
+  position: relative;
   display: inline-flex;
   align-items: center;
-  gap: 5px;
+  overflow: visible;
 }
 
 .live-count {
   --background: var(--wc-crimson);
   --color: #fff;
+  position: absolute;
+  top: -8px;
+  right: -14px;
   border-radius: 999px;
   font-size: 0.62rem;
   animation: wc-pulse 1.4s ease-in-out infinite;

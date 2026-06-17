@@ -9,6 +9,8 @@ import { readFavorites, toggledFavorites, writeFavorites } from './favorites-sto
 const API_BASE = 'https://api.football-data.org/v4/competitions/WC';
 /** 2 calls/min — well inside the free tier's 10 requests/min. */
 const POLL_MS = 30_000;
+const HALF_DURATION_MIN = 45;
+const HALFTIME_BREAK_MIN = 15;
 
 /** football-data.org v4 payload shapes (only the fields we read). */
 interface ApiTeam {
@@ -210,13 +212,28 @@ export class FootballDataService extends IWorldCupDataService implements OnDestr
         status === 'live'
           ? typeof m.minute === 'number'
             ? m.minute
-            : Math.min(Math.max(elapsedMin, 1), 120)
+            : this.estimateMinute(elapsedMin)
           : status === 'finished'
             ? 90
             : 0,
       venue: m.venue ?? 'Venue TBC',
       city: '',
     };
+  }
+
+  /**
+   * Fallback clock for when the API omits `minute`: wall-clock time since
+   * kickoff isn't the match minute, since it includes the ~15-minute
+   * halftime break the players aren't out on the pitch for.
+   */
+  private estimateMinute(elapsedMin: number): number {
+    if (elapsedMin <= HALF_DURATION_MIN) {
+      return Math.max(elapsedMin, 1);
+    }
+    if (elapsedMin <= HALF_DURATION_MIN + HALFTIME_BREAK_MIN) {
+      return HALF_DURATION_MIN;
+    }
+    return Math.min(elapsedMin - HALFTIME_BREAK_MIN, 120);
   }
 
   /** Kickoffs, goals and final whistles, derived from snapshot deltas. */
