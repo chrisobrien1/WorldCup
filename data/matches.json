@@ -1429,7 +1429,7 @@
       "matchday": 1,
       "stage": "GROUP_STAGE",
       "group": "GROUP_L",
-      "lastUpdated": "2026-06-17T20:06:10Z",
+      "lastUpdated": "2026-06-17T20:07:22Z",
       "homeTeam": {
         "id": 770,
         "name": "England",
@@ -6307,5 +6307,5 @@
       "referees": []
     }
   ],
-  "fetchedAt": "2026-06-17T20:06:22Z"
+  "fetchedAt": "2026-06-17T20:08:27Z"
 }
