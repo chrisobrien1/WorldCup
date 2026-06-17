@@ -18,6 +18,13 @@ export abstract class IWorldCupDataService {
   /** All 104 tournament matches; re-emits whenever any match changes. */
   abstract getMatches(): Observable<Match[]>;
 
+  /**
+   * When the match data was last refreshed from its source, or null before
+   * the first successful load. Re-emits on every refresh so the UI can show
+   * a "last updated" indicator.
+   */
+  abstract getLastUpdated(): Observable<Date | null>;
+
   /** Real-time stream of match events (kickoffs, goals, full-time whistles). */
   abstract getLiveUpdates(): Observable<MatchEvent>;
 

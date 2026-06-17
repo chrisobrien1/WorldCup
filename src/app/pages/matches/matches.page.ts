@@ -13,7 +13,7 @@ import {
   IonToolbar,
   ToastController,
 } from '@ionic/angular/standalone';
-import { filter } from 'rxjs';
+import { filter, interval } from 'rxjs';
 import { Match, MatchStatus, Team } from '../../models';
 import { WORLD_CUP_SERVICE } from '../../services/world-cup.contract';
 import { MatchCardComponent } from '../../components/match-card/match-card.component';
@@ -55,6 +55,17 @@ export class MatchesPage {
   private readonly matches = toSignal(this.data.getMatches(), { initialValue: [] as Match[] });
   private readonly teams = toSignal(this.data.getTeams(), { initialValue: [] as Team[] });
   readonly favoriteSet = toSignal(this.data.getFavorites(), { initialValue: [] as string[] });
+
+  private readonly lastUpdated = toSignal(this.data.getLastUpdated(), { initialValue: null });
+  /** Ticks every second so the "updated X ago" label stays current. */
+  private readonly clock = toSignal(interval(1000), { initialValue: 0 });
+
+  /** Human-friendly "updated X ago" label, or null before the first load. */
+  readonly lastUpdatedLabel = computed(() => {
+    const updated = this.lastUpdated();
+    this.clock(); // re-evaluate on each tick
+    return updated ? timeAgo(updated, Date.now()) : null;
+  });
 
   readonly teamsById = computed(() => new Map(this.teams().map((t) => [t.id, t])));
   readonly favorites = computed(() => new Set(this.favoriteSet()));
@@ -121,6 +132,22 @@ export class MatchesPage {
     });
     await toast.present();
   }
+}
+
+/** Renders the gap between two instants as a friendly "5 minutes ago" string. */
+function timeAgo(from: Date, now: number): string {
+  const seconds = Math.max(0, Math.round((now - from.getTime()) / 1000));
+  if (seconds < 5) return 'just now';
+  if (seconds < 60) return `${seconds} seconds ago`;
+
+  const minutes = Math.floor(seconds / 60);
+  if (minutes < 60) return `${minutes} minute${minutes === 1 ? '' : 's'} ago`;
+
+  const hours = Math.floor(minutes / 60);
+  if (hours < 24) return `${hours} hour${hours === 1 ? '' : 's'} ago`;
+
+  const days = Math.floor(hours / 24);
+  return `${days} day${days === 1 ? '' : 's'} ago`;
 }
 
 function formatTimezone(): string {

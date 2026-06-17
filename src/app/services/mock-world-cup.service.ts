@@ -16,6 +16,7 @@ const FULL_TIME = 90;
 export class MockWorldCupService extends IWorldCupDataService implements OnDestroy {
   private readonly teamsById = new Map(TEAMS.map((t) => [t.id, t]));
   private readonly matches$: BehaviorSubject<Match[]>;
+  private readonly lastUpdated$ = new BehaviorSubject<Date | null>(new Date());
   private readonly favorites$: BehaviorSubject<string[]>;
   private readonly events$ = new Subject<MatchEvent>();
   private readonly ticker: Subscription;
@@ -37,6 +38,10 @@ export class MockWorldCupService extends IWorldCupDataService implements OnDestr
 
   getMatches(): Observable<Match[]> {
     return this.matches$.asObservable();
+  }
+
+  getLastUpdated(): Observable<Date | null> {
+    return this.lastUpdated$.asObservable();
   }
 
   getLiveUpdates(): Observable<MatchEvent> {
@@ -123,6 +128,7 @@ export class MockWorldCupService extends IWorldCupDataService implements OnDestr
 
     if (changed) {
       this.matches$.next(next);
+      this.lastUpdated$.next(new Date());
     }
   }
 

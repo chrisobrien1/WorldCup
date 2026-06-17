@@ -14,7 +14,7 @@ ion-toolbar {
 }
 
 .sub-toolbar {
-  --min-height: 38px;
+  --min-height: 46px;
 
   .controls {
     display: flex;
@@ -23,16 +23,33 @@ ion-toolbar {
     gap: 10px;
     padding: 0 14px;
   }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    min-width: 0;
+    flex: 1;
+  }
 }
 
 .tz-chip {
-  flex: 1;
   min-width: 0;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
   color: #7c8798;
   font-size: 0.68rem;
+}
+
+.updated-chip {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: var(--wc-lime);
+  font-size: 0.68rem;
+  font-weight: 600;
 }
 
 .fav-toggle-label {

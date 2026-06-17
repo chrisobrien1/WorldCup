@@ -7,9 +7,16 @@
 
   <ion-toolbar class="sub-toolbar">
     <div class="controls">
-      <span class="tz-chip" title="Detected device timezone">
-        🕒 All times in your local time · {{ timezoneLabel }}
-      </span>
+      <div class="info">
+        <span class="tz-chip" title="Detected device timezone">
+          🕒 All times in your local time · {{ timezoneLabel }}
+        </span>
+        @if (lastUpdatedLabel(); as updated) {
+          <span class="updated-chip" title="When the match data was last refreshed">
+            🔄 Updated {{ updated }}
+          </span>
+        }
+      </div>
       <ion-toggle
         labelPlacement="start"
         [checked]="favoritesOnly()"

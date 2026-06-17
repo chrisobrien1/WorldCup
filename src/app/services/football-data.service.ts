@@ -77,6 +77,7 @@ function flagFor(tla: string | null): string {
 @Injectable()
 export class FootballDataService extends IWorldCupDataService implements OnDestroy {
   private readonly matches$ = new BehaviorSubject<Match[]>([]);
+  private readonly lastUpdated$ = new BehaviorSubject<Date | null>(null);
   private readonly teams$ = new BehaviorSubject<Team[]>([]);
   private readonly favorites$ = new BehaviorSubject<string[]>(readFavorites());
   private readonly events$ = new Subject<MatchEvent>();
@@ -99,6 +100,10 @@ export class FootballDataService extends IWorldCupDataService implements OnDestr
 
   getMatches(): Observable<Match[]> {
     return this.matches$.asObservable();
+  }
+
+  getLastUpdated(): Observable<Date | null> {
+    return this.lastUpdated$.asObservable();
   }
 
   getLiveUpdates(): Observable<MatchEvent> {
@@ -172,6 +177,7 @@ export class FootballDataService extends IWorldCupDataService implements OnDestr
     this.emitDiffEvents(mapped, data.matches);
     this.previous = new Map(mapped.map((m) => [m.id, m]));
     this.matches$.next(mapped);
+    this.lastUpdated$.next(new Date());
   }
 
   private toMatch(m: ApiMatch): Match {
