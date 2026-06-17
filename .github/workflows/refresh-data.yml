@@ -28,9 +28,15 @@ jobs:
         run: |
           mkdir -p data
           curl -sf --max-time 30 -H "X-Auth-Token: $TOKEN" \
-            https://api.football-data.org/v4/competitions/WC/matches -o data/matches.json
+            https://api.football-data.org/v4/competitions/WC/matches -o data/matches.raw.json
           curl -sf --max-time 30 -H "X-Auth-Token: $TOKEN" \
             https://api.football-data.org/v4/competitions/WC/teams -o data/teams.json
+          # Stamp the snapshot with the API fetch time. The deployed app reads
+          # a static file, so without this it can't tell how long ago the data
+          # was actually pulled from the API.
+          jq --arg t "$(date -u +%Y-%m-%dT%H:%M:%SZ)" '. + {fetchedAt: $t}' \
+            data/matches.raw.json > data/matches.json
+          rm -f data/matches.raw.json
       - name: Commit if changed
         run: |
           git config user.name "github-actions[bot]"

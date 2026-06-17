@@ -177,7 +177,13 @@ export class FootballDataService extends IWorldCupDataService implements OnDestr
     this.emitDiffEvents(mapped, data.matches);
     this.previous = new Map(mapped.map((m) => [m.id, m]));
     this.matches$.next(mapped);
-    this.lastUpdated$.next(new Date());
+    // In hosted-snapshot mode the client only re-reads a static file, so
+    // "now" would always look fresh. Prefer the snapshot's own fetch time
+    // (stamped by refresh-data.yml) to reflect how stale the API data really
+    // is. Direct API calls carry no stamp, so they fall back to now — which
+    // is correct, since the data was genuinely just fetched.
+    const stamped = Date.parse(data.fetchedAt);
+    this.lastUpdated$.next(Number.isNaN(stamped) ? new Date() : new Date(stamped));
   }
 
   private toMatch(m: ApiMatch): Match {
