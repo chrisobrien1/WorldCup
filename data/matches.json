@@ -1429,7 +1429,7 @@
       "matchday": 1,
       "stage": "GROUP_STAGE",
       "group": "GROUP_L",
-      "lastUpdated": "2026-06-17T20:56:16Z",
+      "lastUpdated": "2026-06-17T20:56:24Z",
       "homeTeam": {
         "id": 770,
         "name": "England",
@@ -1452,8 +1452,8 @@
           "away": 2
         },
         "halfTime": {
-          "home": 0,
-          "away": 0
+          "home": 2,
+          "away": 2
         }
       },
       "odds": {
@@ -6307,5 +6307,5 @@
       "referees": []
     }
   ],
-  "fetchedAt": "2026-06-17T20:56:22Z"
+  "fetchedAt": "2026-06-17T20:58:19Z"
 }
