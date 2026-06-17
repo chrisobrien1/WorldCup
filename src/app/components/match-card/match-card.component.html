@@ -1,55 +1,57 @@
-<ion-card class="match-card" [class.is-live]="match().status === 'live'" [class.has-fav]="hasFavorite()">
+<div class="card-wrapper">
   @if (hasFavorite()) {
     <span class="fav-ribbon">★ FOLLOWING</span>
   }
 
-  <div class="card-head">
-    <span class="stage-chip">{{ stageLabel() }}</span>
-    <span class="venue">{{ match().venue }}@if (match().city) { · {{ match().city }}}</span>
-    @switch (match().status) {
-      @case ('live') {
-        <span class="live-badge"><span class="live-dot"></span>LIVE {{ match().minute }}&prime;</span>
-      }
-      @case ('finished') {
-        <span class="ft-badge">FT</span>
-      }
-      @default {
-        <span class="ko-badge">{{ match().kickoffUtc | date: 'shortTime' }}</span>
-      }
-    }
-  </div>
-
-  <div class="teams">
-    <div class="team-row" [class.fav-team]="home() && favorites().has(home()!.id)">
-      <span class="flag">{{ home()?.flag ?? '🏟️' }}</span>
-      <span class="name">{{ home()?.name ?? match().homePlaceholder }}</span>
-      @if (home(); as h) {
-        <button class="star-btn" [class.starred]="favorites().has(h.id)" (click)="onStar($event, h.id)"
-                [attr.aria-label]="'Favorite ' + h.name">
-          <ion-icon [name]="favorites().has(h.id) ? 'star' : 'star-outline'"></ion-icon>
-        </button>
-      }
-      @if (match().status !== 'upcoming') {
-        <span class="score">{{ match().homeScore }}</span>
+  <ion-card class="match-card" [class.is-live]="match().status === 'live'" [class.has-fav]="hasFavorite()">
+    <div class="card-head">
+      <span class="stage-chip">{{ stageLabel() }}</span>
+      <span class="venue">{{ match().venue }}@if (match().city) { · {{ match().city }}}</span>
+      @switch (match().status) {
+        @case ('live') {
+          <span class="live-badge"><span class="live-dot"></span>LIVE {{ match().minute }}&prime;</span>
+        }
+        @case ('finished') {
+          <span class="ft-badge">FT</span>
+        }
+        @default {
+          <span class="ko-badge">{{ match().kickoffUtc | date: 'shortTime' }}</span>
+        }
       }
     </div>
 
-    <div class="team-row" [class.fav-team]="away() && favorites().has(away()!.id)">
-      <span class="flag">{{ away()?.flag ?? '🏟️' }}</span>
-      <span class="name">{{ away()?.name ?? match().awayPlaceholder }}</span>
-      @if (away(); as a) {
-        <button class="star-btn" [class.starred]="favorites().has(a.id)" (click)="onStar($event, a.id)"
-                [attr.aria-label]="'Favorite ' + a.name">
-          <ion-icon [name]="favorites().has(a.id) ? 'star' : 'star-outline'"></ion-icon>
-        </button>
-      }
-      @if (match().status !== 'upcoming') {
-        <span class="score">{{ match().awayScore }}</span>
-      }
-    </div>
-  </div>
+    <div class="teams">
+      <div class="team-row" [class.fav-team]="home() && favorites().has(home()!.id)">
+        <span class="flag">{{ home()?.flag ?? '🏟️' }}</span>
+        <span class="name">{{ home()?.name ?? match().homePlaceholder }}</span>
+        @if (home(); as h) {
+          <button class="star-btn" [class.starred]="favorites().has(h.id)" (click)="onStar($event, h.id)"
+                  [attr.aria-label]="'Favorite ' + h.name">
+            <ion-icon [name]="favorites().has(h.id) ? 'star' : 'star-outline'"></ion-icon>
+          </button>
+        }
+        @if (match().status !== 'upcoming') {
+          <span class="score">{{ match().homeScore }}</span>
+        }
+      </div>
 
-  <div class="card-foot">
-    {{ match().kickoffUtc | date: 'EEE d MMM, HH:mm' }} · your local time
-  </div>
-</ion-card>
+      <div class="team-row" [class.fav-team]="away() && favorites().has(away()!.id)">
+        <span class="flag">{{ away()?.flag ?? '🏟️' }}</span>
+        <span class="name">{{ away()?.name ?? match().awayPlaceholder }}</span>
+        @if (away(); as a) {
+          <button class="star-btn" [class.starred]="favorites().has(a.id)" (click)="onStar($event, a.id)"
+                  [attr.aria-label]="'Favorite ' + a.name">
+            <ion-icon [name]="favorites().has(a.id) ? 'star' : 'star-outline'"></ion-icon>
+          </button>
+        }
+        @if (match().status !== 'upcoming') {
+          <span class="score">{{ match().awayScore }}</span>
+        }
+      </div>
+    </div>
+
+    <div class="card-foot">
+      {{ match().kickoffUtc | date: 'EEE d MMM, HH:mm' }} · your local time
+    </div>
+  </ion-card>
+</div>

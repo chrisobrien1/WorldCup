@@ -1,12 +1,16 @@
-.match-card {
+.card-wrapper {
   position: relative;
   margin: 10px 14px;
+}
+
+.match-card {
+  position: relative;
+  margin: 0;
   padding: 12px 14px 10px;
   border-radius: 16px;
   background: linear-gradient(160deg, #12161f 0%, #0c1118 60%, #0a1410 100%);
   border: 1px solid rgba(255, 255, 255, 0.06);
   box-shadow: 0 4px 18px rgba(0, 0, 0, 0.45);
-  overflow: visible;
   transition: border-color 0.3s ease, box-shadow 0.3s ease;
 
   &.is-live {
@@ -25,6 +29,7 @@
   position: absolute;
   top: -8px;
   right: 12px;
+  z-index: 1;
   padding: 2px 9px;
   border-radius: 999px;
   background: var(--wc-gold);
