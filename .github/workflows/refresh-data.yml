@@ -2,10 +2,8 @@ name: Refresh live data snapshot
 
 # Server-side fetch of football-data.org (no CORS applies here), published
 # as static JSON on the Pages site for the browser app to read same-origin.
-# Free tier allows 10 req/min; this uses 2 every 5 minutes.
+# Triggered externally by a cron job calling workflow_dispatch.
 on:
-  schedule:
-    - cron: '*/5 * * * *'
   workflow_dispatch:
 
 permissions:
