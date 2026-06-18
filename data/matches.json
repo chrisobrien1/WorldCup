@@ -1759,7 +1759,7 @@
       "matchday": 2,
       "stage": "GROUP_STAGE",
       "group": "GROUP_B",
-      "lastUpdated": "2026-06-18T22:47:54Z",
+      "lastUpdated": "2026-06-18T22:49:40Z",
       "homeTeam": {
         "id": 828,
         "name": "Canada",
@@ -6342,5 +6342,5 @@
       "referees": []
     }
   ],
-  "fetchedAt": "2026-06-18T22:48:20Z"
+  "fetchedAt": "2026-06-18T22:50:31Z"
 }
