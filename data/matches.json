@@ -6,7 +6,7 @@
     "count": 104,
     "first": "2026-06-11",
     "last": "2026-07-19",
-    "played": 24
+    "played": 25
   },
   "competition": {
     "id": 2000,
@@ -1623,11 +1623,11 @@
       },
       "id": 537329,
       "utcDate": "2026-06-18T16:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "matchday": 2,
       "stage": "GROUP_STAGE",
       "group": "GROUP_A",
-      "lastUpdated": "2026-06-18T18:01:10Z",
+      "lastUpdated": "2026-06-18T18:03:38Z",
       "homeTeam": {
         "id": 798,
         "name": "Czechia",
@@ -6335,5 +6335,5 @@
       "referees": []
     }
   ],
-  "fetchedAt": "2026-06-18T18:02:20Z"
+  "fetchedAt": "2026-06-18T18:04:23Z"
 }
