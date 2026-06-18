@@ -1759,7 +1759,7 @@
       "matchday": 2,
       "stage": "GROUP_STAGE",
       "group": "GROUP_B",
-      "lastUpdated": "2026-06-18T22:53:24Z",
+      "lastUpdated": "2026-06-18T22:55:53Z",
       "homeTeam": {
         "id": 828,
         "name": "Canada",
@@ -1778,12 +1778,12 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 2,
+          "home": 3,
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "odds": {
@@ -6342,5 +6342,5 @@
       "referees": []
     }
   ],
-  "fetchedAt": "2026-06-18T22:54:20Z"
+  "fetchedAt": "2026-06-18T22:56:22Z"
 }
