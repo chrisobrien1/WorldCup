@@ -1561,7 +1561,7 @@
       "matchday": 1,
       "stage": "GROUP_STAGE",
       "group": "GROUP_K",
-      "lastUpdated": "2026-06-18T03:54:04Z",
+      "lastUpdated": "2026-06-18T03:55:16Z",
       "homeTeam": {
         "id": 8070,
         "name": "Uzbekistan",
@@ -6321,5 +6321,5 @@
       "referees": []
     }
   ],
-  "fetchedAt": "2026-06-18T03:54:20Z"
+  "fetchedAt": "2026-06-18T03:56:25Z"
 }
