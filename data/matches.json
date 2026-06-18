@@ -1495,7 +1495,7 @@
       "matchday": 1,
       "stage": "GROUP_STAGE",
       "group": "GROUP_L",
-      "lastUpdated": "2026-06-18T00:30:31Z",
+      "lastUpdated": "2026-06-18T00:32:22Z",
       "homeTeam": {
         "id": 763,
         "name": "Ghana",
@@ -6321,5 +6321,5 @@
       "referees": []
     }
   ],
-  "fetchedAt": "2026-06-18T00:30:43Z"
+  "fetchedAt": "2026-06-18T00:32:27Z"
 }
