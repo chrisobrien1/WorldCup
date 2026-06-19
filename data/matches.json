@@ -1921,7 +1921,14 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 43878,
+          "name": "Felix Zwayer",
+          "type": "REFEREE",
+          "nationality": "Germany"
+        }
+      ]
     },
     {
       "area": {
@@ -6349,5 +6356,5 @@
       "referees": []
     }
   ],
-  "fetchedAt": "2026-06-19T16:58:18Z"
+  "fetchedAt": "2026-06-19T17:00:50Z"
 }
