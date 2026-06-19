@@ -1957,7 +1957,7 @@
       "matchday": 2,
       "stage": "GROUP_STAGE",
       "group": "GROUP_C",
-      "lastUpdated": "2026-06-19T22:33:19Z",
+      "lastUpdated": "2026-06-19T22:36:19Z",
       "homeTeam": {
         "id": 8873,
         "name": "Scotland",
@@ -6370,5 +6370,5 @@
       "referees": []
     }
   ],
-  "fetchedAt": "2026-06-19T22:34:20Z"
+  "fetchedAt": "2026-06-19T22:36:23Z"
 }
