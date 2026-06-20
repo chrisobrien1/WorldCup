@@ -2023,7 +2023,7 @@
       "matchday": 2,
       "stage": "GROUP_STAGE",
       "group": "GROUP_C",
-      "lastUpdated": "2026-06-20T01:04:10Z",
+      "lastUpdated": "2026-06-20T01:05:58Z",
       "homeTeam": {
         "id": 764,
         "name": "Brazil",
@@ -6377,5 +6377,5 @@
       "referees": []
     }
   ],
-  "fetchedAt": "2026-06-20T01:04:20Z"
+  "fetchedAt": "2026-06-20T01:06:22Z"
 }
