@@ -6,7 +6,7 @@
     "count": 104,
     "first": "2026-06-11",
     "last": "2026-07-19",
-    "played": 31
+    "played": 32
   },
   "competition": {
     "id": 2000,
@@ -2085,11 +2085,11 @@
       },
       "id": 537347,
       "utcDate": "2026-06-20T03:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "matchday": 2,
       "stage": "GROUP_STAGE",
       "group": "GROUP_D",
-      "lastUpdated": "2026-06-20T05:11:16Z",
+      "lastUpdated": "2026-06-20T05:13:40Z",
       "homeTeam": {
         "id": 803,
         "name": "Turkey",
@@ -6377,5 +6377,5 @@
       "referees": []
     }
   ],
-  "fetchedAt": "2026-06-20T05:12:19Z"
+  "fetchedAt": "2026-06-20T05:14:18Z"
 }
