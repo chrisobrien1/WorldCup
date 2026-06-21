@@ -2547,11 +2547,11 @@
       },
       "id": 537372,
       "utcDate": "2026-06-21T22:00:00Z",
-      "status": "IN_PLAY",
+      "status": "PAUSED",
       "matchday": 2,
       "stage": "GROUP_STAGE",
       "group": "GROUP_H",
-      "lastUpdated": "2026-06-21T22:58:04Z",
+      "lastUpdated": "2026-06-21T22:59:52Z",
       "homeTeam": {
         "id": 758,
         "name": "Uruguay",
@@ -2574,8 +2574,8 @@
           "away": 1
         },
         "halfTime": {
-          "home": 0,
-          "away": 0
+          "home": 2,
+          "away": 1
         }
       },
       "odds": {
@@ -2647,7 +2647,14 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 129569,
+          "name": "Omar Mohamed Al Ali",
+          "type": "REFEREE",
+          "nationality": "United Arab Emirates"
+        }
+      ]
     },
     {
       "area": {
@@ -6426,5 +6433,5 @@
       "referees": []
     }
   ],
-  "fetchedAt": "2026-06-21T22:58:17Z"
+  "fetchedAt": "2026-06-21T23:00:50Z"
 }
