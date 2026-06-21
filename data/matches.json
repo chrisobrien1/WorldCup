@@ -2353,7 +2353,7 @@
       "matchday": 2,
       "stage": "GROUP_STAGE",
       "group": "GROUP_F",
-      "lastUpdated": "2026-06-21T05:50:25Z",
+      "lastUpdated": "2026-06-21T05:52:13Z",
       "homeTeam": {
         "id": 802,
         "name": "Tunisia",
@@ -6405,5 +6405,5 @@
       "referees": []
     }
   ],
-  "fetchedAt": "2026-06-21T05:50:34Z"
+  "fetchedAt": "2026-06-21T05:52:20Z"
 }
