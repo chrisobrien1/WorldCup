@@ -2749,7 +2749,7 @@
       "matchday": 2,
       "stage": "GROUP_STAGE",
       "group": "GROUP_I",
-      "lastUpdated": "2026-06-22T21:43:43Z",
+      "lastUpdated": "2026-06-22T21:45:34Z",
       "homeTeam": {
         "id": 773,
         "name": "France",
@@ -6447,5 +6447,5 @@
       "referees": []
     }
   ],
-  "fetchedAt": "2026-06-22T21:44:21Z"
+  "fetchedAt": "2026-06-22T21:46:18Z"
 }
