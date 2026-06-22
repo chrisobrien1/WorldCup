@@ -2745,11 +2745,11 @@
       },
       "id": 537393,
       "utcDate": "2026-06-22T21:00:00Z",
-      "status": "IN_PLAY",
+      "status": "PAUSED",
       "matchday": 2,
       "stage": "GROUP_STAGE",
       "group": "GROUP_I",
-      "lastUpdated": "2026-06-22T21:53:19Z",
+      "lastUpdated": "2026-06-22T21:55:07Z",
       "homeTeam": {
         "id": 773,
         "name": "France",
@@ -2772,8 +2772,8 @@
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         }
       },
       "odds": {
@@ -6447,5 +6447,5 @@
       "referees": []
     }
   ],
-  "fetchedAt": "2026-06-22T21:54:19Z"
+  "fetchedAt": "2026-06-22T21:56:19Z"
 }
