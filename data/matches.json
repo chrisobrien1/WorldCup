@@ -3329,7 +3329,7 @@
       "matchday": 3,
       "stage": "GROUP_STAGE",
       "group": "GROUP_C",
-      "lastUpdated": "2026-06-24T22:50:22Z",
+      "lastUpdated": "2026-06-24T22:51:59Z",
       "homeTeam": {
         "id": 815,
         "name": "Morocco",
@@ -3345,15 +3345,15 @@
         "crest": "https://crests.football-data.org/haiti.svg"
       },
       "score": {
-        "winner": "AWAY_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 2,
           "away": 2
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "odds": {
@@ -3395,7 +3395,7 @@
       "matchday": 3,
       "stage": "GROUP_STAGE",
       "group": "GROUP_C",
-      "lastUpdated": "2026-06-24T22:50:14Z",
+      "lastUpdated": "2026-06-24T22:52:14Z",
       "homeTeam": {
         "id": 8873,
         "name": "Scotland",
@@ -6503,5 +6503,5 @@
       "referees": []
     }
   ],
-  "fetchedAt": "2026-06-24T22:50:32Z"
+  "fetchedAt": "2026-06-24T22:52:17Z"
 }
