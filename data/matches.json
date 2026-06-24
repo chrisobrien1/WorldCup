@@ -3197,7 +3197,7 @@
       "matchday": 3,
       "stage": "GROUP_STAGE",
       "group": "GROUP_B",
-      "lastUpdated": "2026-06-24T19:24:08Z",
+      "lastUpdated": "2026-06-24T19:26:07Z",
       "homeTeam": {
         "id": 788,
         "name": "Switzerland",
@@ -3263,7 +3263,7 @@
       "matchday": 3,
       "stage": "GROUP_STAGE",
       "group": "GROUP_B",
-      "lastUpdated": "2026-06-24T19:24:04Z",
+      "lastUpdated": "2026-06-24T19:25:52Z",
       "homeTeam": {
         "id": 1060,
         "name": "Bosnia-Herzegovina",
@@ -6489,5 +6489,5 @@
       "referees": []
     }
   ],
-  "fetchedAt": "2026-06-24T19:24:20Z"
+  "fetchedAt": "2026-06-24T19:26:20Z"
 }
