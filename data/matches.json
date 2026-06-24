@@ -3325,11 +3325,11 @@
       },
       "id": 537344,
       "utcDate": "2026-06-24T22:00:00Z",
-      "status": "LIVE",
+      "status": "PAUSED",
       "matchday": 3,
       "stage": "GROUP_STAGE",
       "group": "GROUP_C",
-      "lastUpdated": "2026-06-24T22:54:00Z",
+      "lastUpdated": "2026-06-24T22:56:08Z",
       "homeTeam": {
         "id": 815,
         "name": "Morocco",
@@ -3352,8 +3352,8 @@
           "away": 2
         },
         "halfTime": {
-          "home": 0,
-          "away": 0
+          "home": 2,
+          "away": 2
         }
       },
       "odds": {
@@ -3395,7 +3395,7 @@
       "matchday": 3,
       "stage": "GROUP_STAGE",
       "group": "GROUP_C",
-      "lastUpdated": "2026-06-24T22:54:19Z",
+      "lastUpdated": "2026-06-24T22:56:14Z",
       "homeTeam": {
         "id": 8873,
         "name": "Scotland",
@@ -6503,5 +6503,5 @@
       "referees": []
     }
   ],
-  "fetchedAt": "2026-06-24T22:54:21Z"
+  "fetchedAt": "2026-06-24T22:56:18Z"
 }
