@@ -3329,7 +3329,7 @@
       "matchday": 3,
       "stage": "GROUP_STAGE",
       "group": "GROUP_C",
-      "lastUpdated": "2026-06-24T22:06:06Z",
+      "lastUpdated": "2026-06-24T22:08:00Z",
       "homeTeam": {
         "id": 815,
         "name": "Morocco",
@@ -3391,11 +3391,11 @@
       },
       "id": 537343,
       "utcDate": "2026-06-24T22:00:00Z",
-      "status": "IN_PLAY",
+      "status": "LIVE",
       "matchday": 3,
       "stage": "GROUP_STAGE",
       "group": "GROUP_C",
-      "lastUpdated": "2026-06-24T22:05:56Z",
+      "lastUpdated": "2026-06-24T22:08:14Z",
       "homeTeam": {
         "id": 8873,
         "name": "Scotland",
@@ -6503,5 +6503,5 @@
       "referees": []
     }
   ],
-  "fetchedAt": "2026-06-24T22:06:20Z"
+  "fetchedAt": "2026-06-24T22:08:19Z"
 }
