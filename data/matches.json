@@ -3457,11 +3457,11 @@
       },
       "id": 537331,
       "utcDate": "2026-06-25T01:00:00Z",
-      "status": "IN_PLAY",
+      "status": "PAUSED",
       "matchday": 3,
       "stage": "GROUP_STAGE",
       "group": "GROUP_A",
-      "lastUpdated": "2026-06-25T01:53:33Z",
+      "lastUpdated": "2026-06-25T01:55:16Z",
       "homeTeam": {
         "id": 798,
         "name": "Czechia",
@@ -3484,8 +3484,8 @@
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "odds": {
@@ -3523,11 +3523,11 @@
       },
       "id": 537332,
       "utcDate": "2026-06-25T01:00:00Z",
-      "status": "IN_PLAY",
+      "status": "PAUSED",
       "matchday": 3,
       "stage": "GROUP_STAGE",
       "group": "GROUP_A",
-      "lastUpdated": "2026-06-25T01:53:43Z",
+      "lastUpdated": "2026-06-25T01:55:31Z",
       "homeTeam": {
         "id": 774,
         "name": "South Africa",
@@ -3550,8 +3550,8 @@
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "odds": {
@@ -6517,5 +6517,5 @@
       "referees": []
     }
   ],
-  "fetchedAt": "2026-06-25T01:54:20Z"
+  "fetchedAt": "2026-06-25T01:56:19Z"
 }
