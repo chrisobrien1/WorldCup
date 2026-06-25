@@ -3138,7 +3138,7 @@
       "matchday": 2,
       "stage": "GROUP_STAGE",
       "group": "GROUP_K",
-      "lastUpdated": "2026-06-24T04:02:41Z",
+      "lastUpdated": "2026-06-24T05:57:43Z",
       "homeTeam": {
         "id": 818,
         "name": "Colombia",
@@ -3197,7 +3197,7 @@
       "matchday": 3,
       "stage": "GROUP_STAGE",
       "group": "GROUP_B",
-      "lastUpdated": "2026-06-24T21:05:55Z",
+      "lastUpdated": "2026-06-24T22:56:46Z",
       "homeTeam": {
         "id": 788,
         "name": "Switzerland",
@@ -3263,7 +3263,7 @@
       "matchday": 3,
       "stage": "GROUP_STAGE",
       "group": "GROUP_B",
-      "lastUpdated": "2026-06-24T21:08:54Z",
+      "lastUpdated": "2026-06-24T23:00:31Z",
       "homeTeam": {
         "id": 1060,
         "name": "Bosnia-Herzegovina",
@@ -3329,7 +3329,7 @@
       "matchday": 3,
       "stage": "GROUP_STAGE",
       "group": "GROUP_C",
-      "lastUpdated": "2026-06-25T00:07:44Z",
+      "lastUpdated": "2026-06-25T02:02:44Z",
       "homeTeam": {
         "id": 815,
         "name": "Morocco",
@@ -3395,7 +3395,7 @@
       "matchday": 3,
       "stage": "GROUP_STAGE",
       "group": "GROUP_C",
-      "lastUpdated": "2026-06-25T00:07:44Z",
+      "lastUpdated": "2026-06-25T02:02:44Z",
       "homeTeam": {
         "id": 8873,
         "name": "Scotland",
@@ -3461,7 +3461,7 @@
       "matchday": 3,
       "stage": "GROUP_STAGE",
       "group": "GROUP_A",
-      "lastUpdated": "2026-06-23T15:20:15Z",
+      "lastUpdated": "2026-06-25T02:44:46Z",
       "homeTeam": {
         "id": 798,
         "name": "Czechia",
@@ -3527,7 +3527,7 @@
       "matchday": 3,
       "stage": "GROUP_STAGE",
       "group": "GROUP_A",
-      "lastUpdated": "2026-06-23T15:20:15Z",
+      "lastUpdated": "2026-06-25T02:42:07Z",
       "homeTeam": {
         "id": 774,
         "name": "South Africa",
@@ -6517,5 +6517,5 @@
       "referees": []
     }
   ],
-  "fetchedAt": "2026-06-25T01:04:18Z"
+  "fetchedAt": "2026-06-25T01:06:21Z"
 }
