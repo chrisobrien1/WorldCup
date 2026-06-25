@@ -3593,7 +3593,7 @@
       "matchday": 3,
       "stage": "GROUP_STAGE",
       "group": "GROUP_E",
-      "lastUpdated": "2026-06-25T20:54:44Z",
+      "lastUpdated": "2026-06-25T21:05:29Z",
       "homeTeam": {
         "id": 791,
         "name": "Ecuador",
@@ -6545,5 +6545,5 @@
       "referees": []
     }
   ],
-  "fetchedAt": "2026-06-25T21:04:19Z"
+  "fetchedAt": "2026-06-25T21:06:20Z"
 }
