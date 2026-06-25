@@ -3593,7 +3593,7 @@
       "matchday": 3,
       "stage": "GROUP_STAGE",
       "group": "GROUP_E",
-      "lastUpdated": "2026-06-25T20:12:11Z",
+      "lastUpdated": "2026-06-25T20:14:11Z",
       "homeTeam": {
         "id": 791,
         "name": "Ecuador",
@@ -3609,10 +3609,10 @@
         "crest": "https://crests.football-data.org/759.svg"
       },
       "score": {
-        "winner": "AWAY_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 1
         },
         "halfTime": {
@@ -3659,7 +3659,7 @@
       "matchday": 3,
       "stage": "GROUP_STAGE",
       "group": "GROUP_E",
-      "lastUpdated": "2026-06-25T20:12:15Z",
+      "lastUpdated": "2026-06-25T20:13:59Z",
       "homeTeam": {
         "id": 9460,
         "name": "Curaçao",
@@ -6531,5 +6531,5 @@
       "referees": []
     }
   ],
-  "fetchedAt": "2026-06-25T20:12:20Z"
+  "fetchedAt": "2026-06-25T20:14:20Z"
 }
