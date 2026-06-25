@@ -3589,11 +3589,11 @@
       },
       "id": 537355,
       "utcDate": "2026-06-25T20:00:00Z",
-      "status": "PAUSED",
+      "status": "IN_PLAY",
       "matchday": 3,
       "stage": "GROUP_STAGE",
       "group": "GROUP_E",
-      "lastUpdated": "2026-06-25T21:05:29Z",
+      "lastUpdated": "2026-06-25T21:12:07Z",
       "homeTeam": {
         "id": 791,
         "name": "Ecuador",
@@ -3655,11 +3655,11 @@
       },
       "id": 537356,
       "utcDate": "2026-06-25T20:00:00Z",
-      "status": "PAUSED",
+      "status": "LIVE",
       "matchday": 3,
       "stage": "GROUP_STAGE",
       "group": "GROUP_E",
-      "lastUpdated": "2026-06-25T20:56:56Z",
+      "lastUpdated": "2026-06-25T21:11:31Z",
       "homeTeam": {
         "id": 9460,
         "name": "Curaçao",
@@ -6545,5 +6545,5 @@
       "referees": []
     }
   ],
-  "fetchedAt": "2026-06-25T21:10:29Z"
+  "fetchedAt": "2026-06-25T21:12:18Z"
 }
