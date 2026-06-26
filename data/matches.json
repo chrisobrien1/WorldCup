@@ -1891,7 +1891,7 @@
       "matchday": 2,
       "stage": "GROUP_STAGE",
       "group": "GROUP_D",
-      "lastUpdated": "2026-06-20T08:25:01Z",
+      "lastUpdated": "2026-06-20T08:25:00Z",
       "homeTeam": {
         "id": 771,
         "name": "United States",
@@ -3725,7 +3725,7 @@
       "matchday": 3,
       "stage": "GROUP_STAGE",
       "group": "GROUP_F",
-      "lastUpdated": "2026-06-26T00:32:17Z",
+      "lastUpdated": "2026-06-26T00:34:04Z",
       "homeTeam": {
         "id": 802,
         "name": "Tunisia",
@@ -3791,7 +3791,7 @@
       "matchday": 3,
       "stage": "GROUP_STAGE",
       "group": "GROUP_F",
-      "lastUpdated": "2026-06-26T00:31:53Z",
+      "lastUpdated": "2026-06-26T00:33:53Z",
       "homeTeam": {
         "id": 766,
         "name": "Japan",
@@ -6559,5 +6559,5 @@
       "referees": []
     }
   ],
-  "fetchedAt": "2026-06-26T00:32:18Z"
+  "fetchedAt": "2026-06-26T00:34:20Z"
 }
