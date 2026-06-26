@@ -3721,11 +3721,11 @@
       },
       "id": 537361,
       "utcDate": "2026-06-25T23:00:00Z",
-      "status": "LIVE",
+      "status": "IN_PLAY",
       "matchday": 3,
       "stage": "GROUP_STAGE",
       "group": "GROUP_F",
-      "lastUpdated": "2026-06-26T00:09:43Z",
+      "lastUpdated": "2026-06-26T00:11:43Z",
       "homeTeam": {
         "id": 802,
         "name": "Tunisia",
@@ -3787,11 +3787,11 @@
       },
       "id": 537362,
       "utcDate": "2026-06-25T23:00:00Z",
-      "status": "PAUSED",
+      "status": "IN_PLAY",
       "matchday": 3,
       "stage": "GROUP_STAGE",
       "group": "GROUP_F",
-      "lastUpdated": "2026-06-25T23:57:47Z",
+      "lastUpdated": "2026-06-26T00:12:11Z",
       "homeTeam": {
         "id": 766,
         "name": "Japan",
@@ -6559,5 +6559,5 @@
       "referees": []
     }
   ],
-  "fetchedAt": "2026-06-26T00:10:30Z"
+  "fetchedAt": "2026-06-26T00:12:19Z"
 }
