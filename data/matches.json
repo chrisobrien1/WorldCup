@@ -3989,7 +3989,7 @@
       "matchday": 3,
       "stage": "GROUP_STAGE",
       "group": "GROUP_I",
-      "lastUpdated": "2026-06-26T19:18:05Z",
+      "lastUpdated": "2026-06-26T19:19:52Z",
       "homeTeam": {
         "id": 8872,
         "name": "Norway",
@@ -4055,7 +4055,7 @@
       "matchday": 3,
       "stage": "GROUP_STAGE",
       "group": "GROUP_I",
-      "lastUpdated": "2026-06-26T19:18:10Z",
+      "lastUpdated": "2026-06-26T19:20:21Z",
       "homeTeam": {
         "id": 804,
         "name": "Senegal",
@@ -6573,5 +6573,5 @@
       "referees": []
     }
   ],
-  "fetchedAt": "2026-06-26T19:18:18Z"
+  "fetchedAt": "2026-06-26T19:20:31Z"
 }
