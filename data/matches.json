@@ -3989,7 +3989,7 @@
       "matchday": 3,
       "stage": "GROUP_STAGE",
       "group": "GROUP_I",
-      "lastUpdated": "2026-06-26T19:10:13Z",
+      "lastUpdated": "2026-06-26T19:12:01Z",
       "homeTeam": {
         "id": 8872,
         "name": "Norway",
@@ -4055,7 +4055,7 @@
       "matchday": 3,
       "stage": "GROUP_STAGE",
       "group": "GROUP_I",
-      "lastUpdated": "2026-06-26T19:10:22Z",
+      "lastUpdated": "2026-06-26T19:12:10Z",
       "homeTeam": {
         "id": 804,
         "name": "Senegal",
@@ -4071,10 +4071,10 @@
         "crest": "https://crests.football-data.org/iraq.svg"
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -6573,5 +6573,5 @@
       "referees": []
     }
   ],
-  "fetchedAt": "2026-06-26T19:10:30Z"
+  "fetchedAt": "2026-06-26T19:12:20Z"
 }
