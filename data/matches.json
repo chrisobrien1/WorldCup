@@ -4381,11 +4381,11 @@
       },
       "id": 537413,
       "utcDate": "2026-06-27T21:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "matchday": 3,
       "stage": "GROUP_STAGE",
       "group": "GROUP_L",
-      "lastUpdated": "2026-06-26T15:20:14Z",
+      "lastUpdated": "2026-06-27T21:06:09Z",
       "homeTeam": {
         "id": 1836,
         "name": "Panama",
@@ -4401,11 +4401,11 @@
         "crest": "https://crests.football-data.org/770.svg"
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -4447,11 +4447,11 @@
       },
       "id": 537414,
       "utcDate": "2026-06-27T21:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "matchday": 3,
       "stage": "GROUP_STAGE",
       "group": "GROUP_L",
-      "lastUpdated": "2026-06-26T15:20:14Z",
+      "lastUpdated": "2026-06-27T21:05:42Z",
       "homeTeam": {
         "id": 799,
         "name": "Croatia",
@@ -4467,11 +4467,11 @@
         "crest": "https://crests.football-data.org/ghana.svg"
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -6615,5 +6615,5 @@
       "referees": []
     }
   ],
-  "fetchedAt": "2026-06-27T21:04:19Z"
+  "fetchedAt": "2026-06-27T21:06:19Z"
 }
