@@ -4253,7 +4253,7 @@
       "matchday": 3,
       "stage": "GROUP_STAGE",
       "group": "GROUP_G",
-      "lastUpdated": "2026-06-27T03:10:20Z",
+      "lastUpdated": "2026-06-27T03:12:04Z",
       "homeTeam": {
         "id": 783,
         "name": "New Zealand",
@@ -4319,7 +4319,7 @@
       "matchday": 3,
       "stage": "GROUP_STAGE",
       "group": "GROUP_G",
-      "lastUpdated": "2026-06-27T03:09:51Z",
+      "lastUpdated": "2026-06-27T03:11:51Z",
       "homeTeam": {
         "id": 825,
         "name": "Egypt",
@@ -4335,10 +4335,10 @@
         "crest": "https://crests.football-data.org/iran.svg"
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -6601,5 +6601,5 @@
       "referees": []
     }
   ],
-  "fetchedAt": "2026-06-27T03:10:31Z"
+  "fetchedAt": "2026-06-27T03:12:20Z"
 }
