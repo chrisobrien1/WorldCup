@@ -3989,7 +3989,7 @@
       "matchday": 3,
       "stage": "GROUP_STAGE",
       "group": "GROUP_I",
-      "lastUpdated": "2026-06-26T23:00:47Z",
+      "lastUpdated": "2026-06-27T07:23:05Z",
       "homeTeam": {
         "id": 8872,
         "name": "Norway",
@@ -4055,7 +4055,7 @@
       "matchday": 3,
       "stage": "GROUP_STAGE",
       "group": "GROUP_I",
-      "lastUpdated": "2026-06-26T23:05:58Z",
+      "lastUpdated": "2026-06-27T07:23:05Z",
       "homeTeam": {
         "id": 804,
         "name": "Senegal",
@@ -4121,7 +4121,7 @@
       "matchday": 3,
       "stage": "GROUP_STAGE",
       "group": "GROUP_H",
-      "lastUpdated": "2026-06-27T04:02:59Z",
+      "lastUpdated": "2026-06-27T07:23:05Z",
       "homeTeam": {
         "id": 758,
         "name": "Uruguay",
@@ -4187,7 +4187,7 @@
       "matchday": 3,
       "stage": "GROUP_STAGE",
       "group": "GROUP_H",
-      "lastUpdated": "2026-06-27T04:00:59Z",
+      "lastUpdated": "2026-06-27T07:23:05Z",
       "homeTeam": {
         "id": 1930,
         "name": "Cape Verde Islands",
@@ -4253,7 +4253,7 @@
       "matchday": 3,
       "stage": "GROUP_STAGE",
       "group": "GROUP_G",
-      "lastUpdated": "2026-06-27T06:58:41Z",
+      "lastUpdated": "2026-06-27T07:23:05Z",
       "homeTeam": {
         "id": 783,
         "name": "New Zealand",
@@ -4319,7 +4319,7 @@
       "matchday": 3,
       "stage": "GROUP_STAGE",
       "group": "GROUP_G",
-      "lastUpdated": "2026-06-27T07:04:41Z",
+      "lastUpdated": "2026-06-27T07:23:05Z",
       "homeTeam": {
         "id": 825,
         "name": "Egypt",
@@ -6601,5 +6601,5 @@
       "referees": []
     }
   ],
-  "fetchedAt": "2026-06-27T07:22:17Z"
+  "fetchedAt": "2026-06-27T07:24:18Z"
 }
