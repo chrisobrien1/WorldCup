@@ -4385,7 +4385,7 @@
       "matchday": 3,
       "stage": "GROUP_STAGE",
       "group": "GROUP_L",
-      "lastUpdated": "2026-06-27T21:56:09Z",
+      "lastUpdated": "2026-06-27T21:56:24Z",
       "homeTeam": {
         "id": 1836,
         "name": "Panama",
@@ -6629,5 +6629,5 @@
       "referees": []
     }
   ],
-  "fetchedAt": "2026-06-27T21:56:20Z"
+  "fetchedAt": "2026-06-27T21:58:20Z"
 }
