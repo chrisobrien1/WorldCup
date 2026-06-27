@@ -4121,7 +4121,7 @@
       "matchday": 3,
       "stage": "GROUP_STAGE",
       "group": "GROUP_H",
-      "lastUpdated": "2026-06-27T00:30:29Z",
+      "lastUpdated": "2026-06-27T00:32:07Z",
       "homeTeam": {
         "id": 758,
         "name": "Uruguay",
@@ -4187,7 +4187,7 @@
       "matchday": 3,
       "stage": "GROUP_STAGE",
       "group": "GROUP_H",
-      "lastUpdated": "2026-06-27T00:30:34Z",
+      "lastUpdated": "2026-06-27T00:31:54Z",
       "homeTeam": {
         "id": 1930,
         "name": "Cape Verde Islands",
@@ -6587,5 +6587,5 @@
       "referees": []
     }
   ],
-  "fetchedAt": "2026-06-27T00:30:40Z"
+  "fetchedAt": "2026-06-27T00:32:17Z"
 }
