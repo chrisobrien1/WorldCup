@@ -4517,7 +4517,7 @@
       "matchday": 3,
       "stage": "GROUP_STAGE",
       "group": "GROUP_K",
-      "lastUpdated": "2026-06-28T01:14:10Z",
+      "lastUpdated": "2026-06-28T01:16:10Z",
       "homeTeam": {
         "id": 818,
         "name": "Colombia",
@@ -4583,7 +4583,7 @@
       "matchday": 3,
       "stage": "GROUP_STAGE",
       "group": "GROUP_K",
-      "lastUpdated": "2026-06-28T01:14:09Z",
+      "lastUpdated": "2026-06-28T01:16:01Z",
       "homeTeam": {
         "id": 1934,
         "name": "Congo DR",
@@ -4599,10 +4599,10 @@
         "crest": "https://crests.football-data.org/8070.png"
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 2,
           "away": 1
         },
         "halfTime": {
@@ -6643,5 +6643,5 @@
       "referees": []
     }
   ],
-  "fetchedAt": "2026-06-28T01:14:17Z"
+  "fetchedAt": "2026-06-28T01:16:19Z"
 }
