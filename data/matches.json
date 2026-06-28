@@ -4517,7 +4517,7 @@
       "matchday": 3,
       "stage": "GROUP_STAGE",
       "group": "GROUP_K",
-      "lastUpdated": "2026-06-28T00:16:11Z",
+      "lastUpdated": "2026-06-28T00:18:11Z",
       "homeTeam": {
         "id": 818,
         "name": "Colombia",
@@ -4583,7 +4583,7 @@
       "matchday": 3,
       "stage": "GROUP_STAGE",
       "group": "GROUP_K",
-      "lastUpdated": "2026-06-28T00:15:57Z",
+      "lastUpdated": "2026-06-28T00:17:45Z",
       "homeTeam": {
         "id": 1934,
         "name": "Congo DR",
@@ -6643,5 +6643,5 @@
       "referees": []
     }
   ],
-  "fetchedAt": "2026-06-28T00:16:20Z"
+  "fetchedAt": "2026-06-28T00:18:20Z"
 }
