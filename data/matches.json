@@ -4781,7 +4781,7 @@
       "matchday": null,
       "stage": "LAST_32",
       "group": null,
-      "lastUpdated": "2026-06-28T19:24:15Z",
+      "lastUpdated": "2026-06-28T19:25:18Z",
       "homeTeam": {
         "id": 774,
         "name": "South Africa",
@@ -6650,5 +6650,5 @@
       "referees": []
     }
   ],
-  "fetchedAt": "2026-06-28T19:24:18Z"
+  "fetchedAt": "2026-06-28T19:26:20Z"
 }
