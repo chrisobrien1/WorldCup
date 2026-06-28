@@ -4649,7 +4649,7 @@
       "matchday": 3,
       "stage": "GROUP_STAGE",
       "group": "GROUP_J",
-      "lastUpdated": "2026-06-28T04:00:45Z",
+      "lastUpdated": "2026-06-28T04:02:07Z",
       "homeTeam": {
         "id": 8049,
         "name": "Jordan",
@@ -4715,7 +4715,7 @@
       "matchday": 3,
       "stage": "GROUP_STAGE",
       "group": "GROUP_J",
-      "lastUpdated": "2026-06-28T04:00:42Z",
+      "lastUpdated": "2026-06-28T04:02:06Z",
       "homeTeam": {
         "id": 778,
         "name": "Algeria",
@@ -6643,5 +6643,5 @@
       "referees": []
     }
   ],
-  "fetchedAt": "2026-06-28T04:00:47Z"
+  "fetchedAt": "2026-06-28T04:02:21Z"
 }
