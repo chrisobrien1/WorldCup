@@ -6,7 +6,7 @@
     "count": 104,
     "first": "2026-06-11",
     "last": "2026-07-19",
-    "played": 68
+    "played": 69
   },
   "competition": {
     "id": 2000,
@@ -4513,11 +4513,11 @@
       },
       "id": 537407,
       "utcDate": "2026-06-27T23:30:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "matchday": 3,
       "stage": "GROUP_STAGE",
       "group": "GROUP_K",
-      "lastUpdated": "2026-06-28T01:32:10Z",
+      "lastUpdated": "2026-06-28T01:33:51Z",
       "homeTeam": {
         "id": 818,
         "name": "Colombia",
@@ -4583,7 +4583,7 @@
       "matchday": 3,
       "stage": "GROUP_STAGE",
       "group": "GROUP_K",
-      "lastUpdated": "2026-06-28T01:32:09Z",
+      "lastUpdated": "2026-06-28T01:33:57Z",
       "homeTeam": {
         "id": 1934,
         "name": "Congo DR",
@@ -6643,5 +6643,5 @@
       "referees": []
     }
   ],
-  "fetchedAt": "2026-06-28T01:32:17Z"
+  "fetchedAt": "2026-06-28T01:34:17Z"
 }
