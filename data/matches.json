@@ -4877,7 +4877,14 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 11043,
+          "name": "Maurizio Mariani",
+          "type": "REFEREE",
+          "nationality": "Italy"
+        }
+      ]
     },
     {
       "area": {
@@ -6650,5 +6657,5 @@
       "referees": []
     }
   ],
-  "fetchedAt": "2026-06-29T14:58:19Z"
+  "fetchedAt": "2026-06-29T15:00:49Z"
 }
