@@ -6,7 +6,7 @@
     "count": 104,
     "first": "2026-06-11",
     "last": "2026-07-19",
-    "played": 74
+    "played": 75
   },
   "competition": {
     "id": 2000,
@@ -4909,7 +4909,7 @@
       },
       "id": 537415,
       "utcDate": "2026-06-29T20:30:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "matchday": null,
       "stage": "LAST_32",
       "group": null,
@@ -6683,5 +6683,5 @@
       "referees": []
     }
   ],
-  "fetchedAt": "2026-06-29T23:32:17Z"
+  "fetchedAt": "2026-06-29T23:34:17Z"
 }
