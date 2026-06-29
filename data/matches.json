@@ -4847,7 +4847,7 @@
       "matchday": null,
       "stage": "LAST_32",
       "group": null,
-      "lastUpdated": "2026-06-29T18:57:49Z",
+      "lastUpdated": "2026-06-29T18:59:48Z",
       "homeTeam": {
         "id": 764,
         "name": "Brazil",
@@ -6664,5 +6664,5 @@
       "referees": []
     }
   ],
-  "fetchedAt": "2026-06-29T18:58:18Z"
+  "fetchedAt": "2026-06-29T19:00:48Z"
 }
