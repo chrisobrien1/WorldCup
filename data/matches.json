@@ -4913,7 +4913,7 @@
       "matchday": null,
       "stage": "LAST_32",
       "group": null,
-      "lastUpdated": "2026-06-29T23:22:55Z",
+      "lastUpdated": "2026-06-29T23:25:57Z",
       "homeTeam": {
         "id": 759,
         "name": "Germany",
@@ -4933,7 +4933,7 @@
         "duration": "PENALTY_SHOOTOUT",
         "fullTime": {
           "home": 2,
-          "away": 2
+          "away": 3
         },
         "halfTime": {
           "home": 0,
@@ -4948,8 +4948,8 @@
           "away": 0
         },
         "penalties": {
-          "home": 1,
-          "away": 1
+          "home": 2,
+          "away": 2
         }
       },
       "odds": {
@@ -6683,5 +6683,5 @@
       "referees": []
     }
   ],
-  "fetchedAt": "2026-06-29T23:24:17Z"
+  "fetchedAt": "2026-06-29T23:26:17Z"
 }
