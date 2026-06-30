@@ -4991,7 +4991,7 @@
       "matchday": null,
       "stage": "LAST_32",
       "group": null,
-      "lastUpdated": "2026-06-30T01:30:10Z",
+      "lastUpdated": "2026-06-30T01:32:10Z",
       "homeTeam": {
         "id": 8601,
         "name": "Netherlands",
@@ -6683,5 +6683,5 @@
       "referees": []
     }
   ],
-  "fetchedAt": "2026-06-30T01:30:38Z"
+  "fetchedAt": "2026-06-30T01:32:18Z"
 }
