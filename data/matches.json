@@ -5099,14 +5099,7 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": [
-        {
-          "id": 28805,
-          "name": "Jesús Valenzuela",
-          "type": "REFEREE",
-          "nationality": "Venezuela"
-        }
-      ]
+      "referees": []
     },
     {
       "area": {
@@ -5135,7 +5128,7 @@
       "matchday": null,
       "stage": "LAST_32",
       "group": null,
-      "lastUpdated": "2026-06-30T21:38:09Z",
+      "lastUpdated": "2026-06-30T21:40:09Z",
       "homeTeam": {
         "id": 773,
         "name": "France",
@@ -5165,14 +5158,7 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": [
-        {
-          "id": 43899,
-          "name": "Danny Makkelie",
-          "type": "REFEREE",
-          "nationality": "Netherlands"
-        }
-      ]
+      "referees": []
     },
     {
       "area": {
@@ -6709,5 +6695,5 @@
       "referees": []
     }
   ],
-  "fetchedAt": "2026-06-30T21:38:18Z"
+  "fetchedAt": "2026-06-30T21:40:33Z"
 }
