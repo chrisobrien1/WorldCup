@@ -5069,7 +5069,7 @@
       "matchday": null,
       "stage": "LAST_32",
       "group": null,
-      "lastUpdated": "2026-06-30T18:58:07Z",
+      "lastUpdated": "2026-06-30T19:00:06Z",
       "homeTeam": {
         "id": 1935,
         "name": "Ivory Coast",
@@ -5165,7 +5165,14 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 43899,
+          "name": "Danny Makkelie",
+          "type": "REFEREE",
+          "nationality": "Netherlands"
+        }
+      ]
     },
     {
       "area": {
@@ -6702,5 +6709,5 @@
       "referees": []
     }
   ],
-  "fetchedAt": "2026-06-30T18:58:19Z"
+  "fetchedAt": "2026-06-30T19:00:52Z"
 }
