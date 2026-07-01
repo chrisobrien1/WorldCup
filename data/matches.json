@@ -5069,7 +5069,7 @@
       "matchday": null,
       "stage": "LAST_32",
       "group": null,
-      "lastUpdated": "2026-06-30T19:12:59Z",
+      "lastUpdated": "2026-06-30T19:04:39Z",
       "homeTeam": {
         "id": 1935,
         "name": "Ivory Coast",
@@ -5135,7 +5135,7 @@
       "matchday": null,
       "stage": "LAST_32",
       "group": null,
-      "lastUpdated": "2026-06-30T23:00:18Z",
+      "lastUpdated": "2026-06-30T23:08:38Z",
       "homeTeam": {
         "id": 773,
         "name": "France",
@@ -5201,7 +5201,7 @@
       "matchday": null,
       "stage": "LAST_32",
       "group": null,
-      "lastUpdated": "2026-07-01T03:44:12Z",
+      "lastUpdated": "2026-07-01T03:46:00Z",
       "homeTeam": {
         "id": 769,
         "name": "Mexico",
@@ -6716,5 +6716,5 @@
       "referees": []
     }
   ],
-  "fetchedAt": "2026-07-01T03:44:21Z"
+  "fetchedAt": "2026-07-01T03:46:21Z"
 }
