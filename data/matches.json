@@ -5201,7 +5201,7 @@
       "matchday": null,
       "stage": "LAST_32",
       "group": null,
-      "lastUpdated": "2026-07-01T02:30:24Z",
+      "lastUpdated": "2026-07-01T02:31:49Z",
       "homeTeam": {
         "id": 769,
         "name": "Mexico",
@@ -6716,5 +6716,5 @@
       "referees": []
     }
   ],
-  "fetchedAt": "2026-07-01T02:30:41Z"
+  "fetchedAt": "2026-07-01T02:32:17Z"
 }
