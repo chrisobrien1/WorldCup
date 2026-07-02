@@ -5539,7 +5539,7 @@
       "matchday": null,
       "stage": "LAST_32",
       "group": null,
-      "lastUpdated": "2026-07-02T23:34:08Z",
+      "lastUpdated": "2026-07-02T23:36:08Z",
       "homeTeam": {
         "id": 765,
         "name": "Portugal",
@@ -6759,5 +6759,5 @@
       "referees": []
     }
   ],
-  "fetchedAt": "2026-07-02T23:34:19Z"
+  "fetchedAt": "2026-07-02T23:36:17Z"
 }
