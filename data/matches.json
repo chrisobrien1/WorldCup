@@ -5333,7 +5333,7 @@
       "matchday": null,
       "stage": "LAST_32",
       "group": null,
-      "lastUpdated": "2026-07-01T23:03:12Z",
+      "lastUpdated": "2026-07-01T23:03:13Z",
       "homeTeam": {
         "id": 805,
         "name": "Belgium",
@@ -5407,7 +5407,7 @@
       "matchday": null,
       "stage": "LAST_32",
       "group": null,
-      "lastUpdated": "2026-07-02T01:54:09Z",
+      "lastUpdated": "2026-07-02T01:56:08Z",
       "homeTeam": {
         "id": 771,
         "name": "United States",
@@ -6745,5 +6745,5 @@
       "referees": []
     }
   ],
-  "fetchedAt": "2026-07-02T01:54:19Z"
+  "fetchedAt": "2026-07-02T01:56:20Z"
 }
