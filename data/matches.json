@@ -5535,11 +5535,11 @@
       },
       "id": 537419,
       "utcDate": "2026-07-02T23:00:00Z",
-      "status": "IN_PLAY",
+      "status": "PAUSED",
       "matchday": null,
       "stage": "LAST_32",
       "group": null,
-      "lastUpdated": "2026-07-02T23:54:07Z",
+      "lastUpdated": "2026-07-02T23:55:39Z",
       "homeTeam": {
         "id": 765,
         "name": "Portugal",
@@ -5562,8 +5562,8 @@
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "odds": {
@@ -6759,5 +6759,5 @@
       "referees": []
     }
   ],
-  "fetchedAt": "2026-07-02T23:54:20Z"
+  "fetchedAt": "2026-07-02T23:56:17Z"
 }
