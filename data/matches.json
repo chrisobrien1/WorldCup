@@ -5473,7 +5473,7 @@
       "matchday": null,
       "stage": "LAST_32",
       "group": null,
-      "lastUpdated": "2026-07-02T21:00:33Z",
+      "lastUpdated": "2026-07-02T21:02:08Z",
       "homeTeam": {
         "id": 760,
         "name": "Spain",
@@ -6759,5 +6759,5 @@
       "referees": []
     }
   ],
-  "fetchedAt": "2026-07-02T21:00:52Z"
+  "fetchedAt": "2026-07-02T21:02:20Z"
 }
