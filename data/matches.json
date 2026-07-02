@@ -5407,7 +5407,7 @@
       "matchday": null,
       "stage": "LAST_32",
       "group": null,
-      "lastUpdated": "2026-07-02T01:52:08Z",
+      "lastUpdated": "2026-07-02T01:54:09Z",
       "homeTeam": {
         "id": 771,
         "name": "United States",
@@ -5426,7 +5426,7 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 2,
           "away": 0
         },
         "halfTime": {
@@ -6745,5 +6745,5 @@
       "referees": []
     }
   ],
-  "fetchedAt": "2026-07-02T01:52:21Z"
+  "fetchedAt": "2026-07-02T01:54:19Z"
 }
