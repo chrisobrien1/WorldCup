@@ -6,7 +6,7 @@
     "count": 104,
     "first": "2026-06-11",
     "last": "2026-07-19",
-    "played": 82
+    "played": 83
   },
   "competition": {
     "id": 2000,
@@ -5469,11 +5469,11 @@
       },
       "id": 537420,
       "utcDate": "2026-07-02T19:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "matchday": null,
       "stage": "LAST_32",
       "group": null,
-      "lastUpdated": "2026-07-02T21:02:08Z",
+      "lastUpdated": "2026-07-02T21:04:09Z",
       "homeTeam": {
         "id": 760,
         "name": "Spain",
@@ -6759,5 +6759,5 @@
       "referees": []
     }
   ],
-  "fetchedAt": "2026-07-02T21:02:20Z"
+  "fetchedAt": "2026-07-02T21:04:20Z"
 }
