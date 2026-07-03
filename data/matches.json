@@ -5601,11 +5601,11 @@
       },
       "id": 537429,
       "utcDate": "2026-07-03T03:00:00Z",
-      "status": "LIVE",
+      "status": "IN_PLAY",
       "matchday": null,
       "stage": "LAST_32",
       "group": null,
-      "lastUpdated": "2026-07-03T04:10:07Z",
+      "lastUpdated": "2026-07-03T04:12:01Z",
       "homeTeam": {
         "id": 788,
         "name": "Switzerland",
@@ -5624,7 +5624,7 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 2,
           "away": 0
         },
         "halfTime": {
@@ -6766,5 +6766,5 @@
       "referees": []
     }
   ],
-  "fetchedAt": "2026-07-03T04:10:38Z"
+  "fetchedAt": "2026-07-03T04:12:18Z"
 }
