@@ -5671,7 +5671,7 @@
       "matchday": null,
       "stage": "LAST_32",
       "group": null,
-      "lastUpdated": "2026-07-03T18:06:08Z",
+      "lastUpdated": "2026-07-03T18:08:08Z",
       "homeTeam": {
         "id": 779,
         "name": "Australia",
@@ -6773,5 +6773,5 @@
       "referees": []
     }
   ],
-  "fetchedAt": "2026-07-03T18:06:19Z"
+  "fetchedAt": "2026-07-03T18:08:19Z"
 }
