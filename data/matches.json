@@ -5671,7 +5671,7 @@
       "matchday": null,
       "stage": "LAST_32",
       "group": null,
-      "lastUpdated": "2026-07-03T20:58:05Z",
+      "lastUpdated": "2026-07-03T20:58:23Z",
       "homeTeam": {
         "id": 779,
         "name": "Australia",
@@ -5706,8 +5706,8 @@
           "away": 0
         },
         "penalties": {
-          "home": 1,
-          "away": 1
+          "home": 4,
+          "away": 4
         }
       },
       "odds": {
@@ -6792,5 +6792,5 @@
       "referees": []
     }
   ],
-  "fetchedAt": "2026-07-03T20:58:18Z"
+  "fetchedAt": "2026-07-03T21:00:53Z"
 }
