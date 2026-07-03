@@ -5605,7 +5605,7 @@
       "matchday": null,
       "stage": "LAST_32",
       "group": null,
-      "lastUpdated": "2026-07-03T05:02:12Z",
+      "lastUpdated": "2026-07-03T05:03:24Z",
       "homeTeam": {
         "id": 788,
         "name": "Switzerland",
@@ -6766,5 +6766,5 @@
       "referees": []
     }
   ],
-  "fetchedAt": "2026-07-03T05:02:18Z"
+  "fetchedAt": "2026-07-03T05:04:18Z"
 }
