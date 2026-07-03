@@ -5749,7 +5749,7 @@
       "matchday": null,
       "stage": "LAST_32",
       "group": null,
-      "lastUpdated": "2026-07-03T22:32:06Z",
+      "lastUpdated": "2026-07-03T22:33:54Z",
       "homeTeam": {
         "id": 762,
         "name": "Argentina",
@@ -5765,10 +5765,10 @@
         "crest": "https://crests.football-data.org/cape_verde.svg"
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -6792,5 +6792,5 @@
       "referees": []
     }
   ],
-  "fetchedAt": "2026-07-03T22:32:18Z"
+  "fetchedAt": "2026-07-03T22:34:19Z"
 }
