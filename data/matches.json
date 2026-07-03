@@ -5749,7 +5749,7 @@
       "matchday": null,
       "stage": "LAST_32",
       "group": null,
-      "lastUpdated": "2026-07-03T23:28:01Z",
+      "lastUpdated": "2026-07-03T23:30:18Z",
       "homeTeam": {
         "id": 762,
         "name": "Argentina",
@@ -5845,7 +5845,14 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 9374,
+          "name": "Clément Turpin",
+          "type": "REFEREE",
+          "nationality": "France"
+        }
+      ]
     },
     {
       "area": {
@@ -6792,5 +6799,5 @@
       "referees": []
     }
   ],
-  "fetchedAt": "2026-07-03T23:28:19Z"
+  "fetchedAt": "2026-07-03T23:30:49Z"
 }
