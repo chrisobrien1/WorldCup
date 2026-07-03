@@ -5701,7 +5701,14 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 260120,
+          "name": "Gustavo Tejera",
+          "type": "REFEREE",
+          "nationality": "Uruguay"
+        }
+      ]
     },
     {
       "area": {
@@ -6766,5 +6773,5 @@
       "referees": []
     }
   ],
-  "fetchedAt": "2026-07-03T15:58:18Z"
+  "fetchedAt": "2026-07-03T16:00:53Z"
 }
