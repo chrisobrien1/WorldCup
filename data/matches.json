@@ -5667,11 +5667,11 @@
       },
       "id": 537428,
       "utcDate": "2026-07-03T18:00:00Z",
-      "status": "IN_PLAY",
+      "status": "PAUSED",
       "matchday": null,
       "stage": "LAST_32",
       "group": null,
-      "lastUpdated": "2026-07-03T20:02:00Z",
+      "lastUpdated": "2026-07-03T20:03:12Z",
       "homeTeam": {
         "id": 779,
         "name": "Australia",
@@ -6780,5 +6780,5 @@
       "referees": []
     }
   ],
-  "fetchedAt": "2026-07-03T20:02:19Z"
+  "fetchedAt": "2026-07-03T20:04:18Z"
 }
