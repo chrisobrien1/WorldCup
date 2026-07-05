@@ -6021,7 +6021,7 @@
       "matchday": null,
       "stage": "LAST_16",
       "group": null,
-      "lastUpdated": "2026-07-05T21:57:24Z",
+      "lastUpdated": "2026-07-05T22:00:57Z",
       "homeTeam": {
         "id": 764,
         "name": "Brazil",
@@ -6117,7 +6117,14 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 55970,
+          "name": "Alireza Faghani",
+          "type": "REFEREE",
+          "nationality": "Iran"
+        }
+      ]
     },
     {
       "area": {
@@ -6828,5 +6835,5 @@
       "referees": []
     }
   ],
-  "fetchedAt": "2026-07-05T21:58:17Z"
+  "fetchedAt": "2026-07-05T22:01:00Z"
 }
