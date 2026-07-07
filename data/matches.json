@@ -6,7 +6,7 @@
     "count": 104,
     "first": "2026-06-11",
     "last": "2026-07-19",
-    "played": 96
+    "played": 95
   },
   "competition": {
     "id": 2000,
@@ -6347,11 +6347,11 @@
       },
       "id": 537382,
       "utcDate": "2026-07-07T20:00:00Z",
-      "status": "FINISHED",
+      "status": "LIVE",
       "matchday": null,
       "stage": "LAST_16",
       "group": null,
-      "lastUpdated": "2026-07-07T22:09:58Z",
+      "lastUpdated": "2026-07-07T22:11:59Z",
       "homeTeam": {
         "id": 788,
         "name": "Switzerland",
@@ -6863,5 +6863,5 @@
       "referees": []
     }
   ],
-  "fetchedAt": "2026-07-07T22:10:54Z"
+  "fetchedAt": "2026-07-07T22:12:19Z"
 }
