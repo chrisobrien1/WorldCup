@@ -6561,7 +6561,7 @@
       "matchday": null,
       "stage": "QUARTER_FINALS",
       "group": null,
-      "lastUpdated": "2026-07-11T23:43:55Z",
+      "lastUpdated": "2026-07-11T23:46:18Z",
       "homeTeam": {
         "id": 8872,
         "name": "Norway",
@@ -6911,5 +6911,5 @@
       "referees": []
     }
   ],
-  "fetchedAt": "2026-07-11T23:44:21Z"
+  "fetchedAt": "2026-07-11T23:46:21Z"
 }
