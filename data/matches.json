@@ -6591,7 +6591,14 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 9374,
+          "name": "Clément Turpin",
+          "type": "REFEREE",
+          "nationality": "France"
+        }
+      ]
     },
     {
       "area": {
@@ -6889,5 +6896,5 @@
       "referees": []
     }
   ],
-  "fetchedAt": "2026-07-11T18:58:18Z"
+  "fetchedAt": "2026-07-11T19:01:06Z"
 }
