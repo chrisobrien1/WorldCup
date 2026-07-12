@@ -6635,7 +6635,7 @@
       "matchday": null,
       "stage": "QUARTER_FINALS",
       "group": null,
-      "lastUpdated": "2026-07-12T01:13:34Z",
+      "lastUpdated": "2026-07-12T01:15:57Z",
       "homeTeam": {
         "id": 762,
         "name": "Argentina",
@@ -6911,5 +6911,5 @@
       "referees": []
     }
   ],
-  "fetchedAt": "2026-07-12T01:14:22Z"
+  "fetchedAt": "2026-07-12T01:16:19Z"
 }
