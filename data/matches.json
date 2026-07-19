@@ -6907,7 +6907,7 @@
       "matchday": null,
       "stage": "FINAL",
       "group": null,
-      "lastUpdated": "2026-07-19T22:03:57Z",
+      "lastUpdated": "2026-07-19T22:05:56Z",
       "homeTeam": {
         "id": 760,
         "name": "Spain",
@@ -6955,5 +6955,5 @@
       ]
     }
   ],
-  "fetchedAt": "2026-07-19T22:04:22Z"
+  "fetchedAt": "2026-07-19T22:06:21Z"
 }
